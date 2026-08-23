@@ -1,0 +1,12 @@
+[Unit]
+Description=Jonsbo D200 front-panel temperature display driver
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/.local/bin/jonsbo_d200_temp.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
