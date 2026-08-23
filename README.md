@@ -17,7 +17,7 @@ fills that gap.
 ## Quick start
 
 ```bash
-git clone <this repo>
+git clone https://github.com/zenith-dragon/Jonsbo-D200-Temperature-Sensor-Linux
 cd jonsbo-d200-temp
 sudo python3 jonsbo_d200_temp.py
 ```
